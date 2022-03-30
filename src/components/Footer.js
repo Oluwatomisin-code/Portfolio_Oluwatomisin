@@ -16,16 +16,16 @@ function Footer() {
         <div className="socials">
         <div className="git social">
           <a href="https://github.com/Oluwatomisin-code" target="_blank" rel='noreferrer noopener'>
-            <img src={Github} alt="" />
+            <img src={Github} alt="" className='gitt'/>
           </a>
         </div>
         <div className="linkedin social">
-          <a href="https://linkedin.com/Oluwatomisin-adeyinka" target="_blank" rel='noreferrer noopener'>
+          <a href="https://www.linkedin.com/in/oluwatomisin-adeyinka-26a13219b" target="_blank" rel='noreferrer noopener'>
             <img src={Linkedin} alt="" />
           </a>
         </div>
         <div className="twitter social">
-          <a href="https://twitter.com" target="_blank" rel='noreferrer noopener'>
+          <a href="https://twitter.com/tomikeyz_dev" target="_blank" rel='noreferrer noopener'>
             <img src={Twitter} alt="" />
           </a>
         </div>
@@ -34,6 +34,7 @@ function Footer() {
             <img src={Insta} alt="" />
           </a>
         </div>
+        
       </div>
       </div>
     </div>

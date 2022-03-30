@@ -76,6 +76,10 @@ p {
     transition: transform .5s ease;
 }
 
+.resumeBtn>a {
+    text-decoration: none;
+}
+
 .contactMeBtn {
     background-color: #00008B;
     color: white;

@@ -51,7 +51,7 @@ function About() {
           </a>
         </div>
         <div className="linkedin social">
-          <a href="www.linkedin.com/in/oluwatomisin-adeyinka-26a13219b" target="_blank" rel='noreferrer noopener'>
+          <a href="https://www.linkedin.com/in/oluwatomisin-adeyinka-26a13219b" target="_blank" rel='noreferrer noopener'>
             <img src={Linkedin} alt="" />
           </a>
         </div>
