@@ -3,6 +3,7 @@ import './Projects.css';
 import Tubekatch from './images/projects/tubekatch.png';
 import Portfolio from './images/projects/portfolio.png';
 import Thespeedfixer from './images/projects/thespeedfixer.png';
+import Whatsapp from './images/projects/whatsapp.png';
 import {FaGithub} from 'react-icons/fa';
 import {BiLinkAlt} from 'react-icons/bi';
 
@@ -39,7 +40,7 @@ function Projects() {
           </div>
         </div>
         <div className="projImgs">
-          <img src="" alt="" className='Img' />
+          <img src={Whatsapp} alt="" className='projImg' />
         </div>
       </div>
       <div className="projCard">
@@ -174,7 +175,7 @@ function Projects() {
           </div>
         </div>
         <div className="projImgs">
-          <img src={Tubekatch} alt="" className='projImg'/>
+          <img src="" alt="" className='projImg'/>
         </div>
       </div>
     </div>
