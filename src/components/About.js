@@ -47,12 +47,12 @@ function About() {
           </a>
         </div>
         <div className="linkedin social">
-          <a href="https://linkedin.com/Oluwatomisin-adeyinka" target="_blank" rel='noreferrer noopener'>
+          <a href="www.linkedin.com/in/oluwatomisin-adeyinka-26a13219b" target="_blank" rel='noreferrer noopener'>
             <img src={Linkedin} alt="" />
           </a>
         </div>
         <div className="twitter social">
-          <a href="https://twitter.com" target="_blank" rel='noreferrer noopener'>
+          <a href="https://twitter.com/tomikeyz_dev" target="_blank" rel='noreferrer noopener'>
             <img src={Twitter} alt="" />
           </a>
         </div>
