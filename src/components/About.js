@@ -37,7 +37,11 @@ function About() {
         </p>
       </div>
       <div className="btns">
-        <div className="resumeBtn btn">Resume</div>
+        <div className="resumeBtn btn">
+          <a href="https://drive.google.com/file/d/1el-oEwbfornrvGZaZd5LpIBPj2HDU-gJ/view?usp=sharing" target="_blank" rel='noreferrer noopener'>
+            Resume
+          </a>
+        </div>
         <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="contactMeBtn btn">Contact Me</Link>
       </div>
       <div className="socials">
