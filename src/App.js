@@ -22,7 +22,7 @@ function App() {
       y:"200", 
       opacity: 0, 
       ease: "ease-in", 
-      duration: 2, 
+      duration: 1, 
       scrollTrigger:{
         trigger:".wrapSkills", 
         start: "top 90%",
@@ -36,7 +36,7 @@ function App() {
       y:"100", 
       opacity: 0, 
       ease: "ease-in", 
-      duration: 2, 
+      duration: .5, 
       scrollTrigger:{
         trigger:".wrapProjects", 
         start: "top 90%",
@@ -50,7 +50,7 @@ function App() {
       y:"100", 
       opacity: 0, 
       ease: "ease-in", 
-      duration: 2, 
+      duration: 1, 
       scrollTrigger:{
         trigger:".wrapContact", 
         start: "top 90%",
