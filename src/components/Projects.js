@@ -111,7 +111,7 @@ function Projects() {
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://" target="_blank" rel='noreferrer noopener'>
+            <a href="https://bucolic-begonia-e9ce53.netlify.app/" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
             <a href="https://github.com/Oluwatomisin-code/Portfolio_Oluwatomisin" target="_blank" rel='noreferrer noopener'>
