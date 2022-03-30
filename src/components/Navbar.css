@@ -1,0 +1,88 @@
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 50px;
+}
+
+.navLinks {
+    margin-right: 150px;
+    width: 400px;
+    height: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLink {
+    padding: 2px;
+    cursor: pointer;
+    color: #00008b;
+    transition: 0.1s;
+}
+
+.navLink:hover {
+    border-bottom: 3px solid #00008b;
+}
+
+.menu {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#hamburger {
+    width: 55%;
+}
+
+@media screen and (max-width:650px) {
+    nav {
+        justify-content: space-between;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+    .menu {
+        display: flex;
+        margin-right: 20px;
+        transition: all 0.5s;
+    }
+    .navLinks {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(43, 43, 43, 0.9);
+        height: 96vh;
+        z-index: 5;
+        transition: 0.5s ease;
+    }
+    .navLinks.active {
+        left: 0;
+    }
+    .navLink {
+        margin: 1.5rem 0;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: large;
+    }
+}
