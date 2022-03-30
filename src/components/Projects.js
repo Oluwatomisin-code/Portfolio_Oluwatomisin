@@ -30,10 +30,10 @@ function Projects() {
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://">
+            <a href="https://" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
-            <a href="https://github.com/Oluwatomisin-code/chat">
+            <a href="https://github.com/Oluwatomisin-code/chat" target="_blank" rel='noreferrer noopener'>
               <FaGithub size={20} style={{color:'#000000'}}/>
             </a>
           </div>
@@ -57,10 +57,10 @@ function Projects() {
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://">
+            <a href="https://tubekatch.herokuapp.com" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
-            <a href="https://github.com/Oluwatomisin-code/tubekatch">
+            <a href="https://github.com/Oluwatomisin-code/TubeKatch" target="_blank" rel='noreferrer noopener'>
               <FaGithub size={20} style={{color:'#000000'}}/>
             </a>
           </div>
@@ -84,10 +84,10 @@ function Projects() {
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://thespeedfixer.com" >
+            <a href="https://thespeedfixer.com" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
-            <a href="https://github.com/Oluwatomisin-code/thespeedfixer">
+            <a href="https://github.com/Oluwatomisin-code/Thespeedfixer" target="_blank" rel='noreferrer noopener'>
               <FaGithub size={20} style={{color:'#000000'}}/>
             </a>
           </div>
@@ -111,10 +111,10 @@ function Projects() {
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://">
+            <a href="https://" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
-            <a href="https://github.com/Oluwatomisin-code/Portfolio_Oluwatomisin">
+            <a href="https://github.com/Oluwatomisin-code/Portfolio_Oluwatomisin" target="_blank" rel='noreferrer noopener'>
               <FaGithub size={20} style={{color:'#000000'}}/>
             </a>
           </div>
@@ -138,10 +138,10 @@ function Projects() {
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://">
+            <a href="https://" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
-            <a href="https://github.com/Oluwatomisin-code/shoppingcart--php">
+            <a href="https://github.com/Oluwatomisin-code/shoppingcart--php" target="_blank" rel='noreferrer noopener'>
               <FaGithub size={20} style={{color:'#000000'}}/>
             </a>
           </div>
@@ -165,10 +165,10 @@ function Projects() {
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://">
+            <a href="https://" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
-            <a href="https://">
+            <a href="https://" target="_blank" rel='noreferrer noopener'>
               <FaGithub size={20} style={{color:'#000000'}}/>
             </a>
           </div>
