@@ -11,7 +11,7 @@
         "start": "node backend/server.js",
         "build": "npm run build --prefix frontend",
         "install-frontend": "npm install --prefix frontend",
-        "heroku-postbuild": "npm run install-frontend && npm run build"
+        "heroku-postbuild": "npm run install-frontend && npm run build --prefix frontend"
     },
     "author": "oluwatomisin Adeyinka Tomori",
     "license": "MIT",
