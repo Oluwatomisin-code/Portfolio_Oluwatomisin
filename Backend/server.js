@@ -26,5 +26,12 @@ app.get("/", (req, res) => {
 app.post("/sendmail", mailSender.mailService)
 
 
+
+//----------------------------app to use static files in production----------------------
+if (process.env.NODE_ENV == 'production') {
+    app.use(express.static('../frontend/build'))
+}
+
+
 //---------------------------app listening---------------------------------------
 app.listen(process.env.PORT, () => console.log(`${process.env.PORT} is live`))
