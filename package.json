@@ -10,7 +10,7 @@
         "dev": "concurrently \"npm run server\" \"npm run client\"",
         "start": "node backend/server.js",
         "build": "cd Frontend && ls && npm run build",
-        "install-frontend": "cd npm install --legacy-peer-deps",
+        "install-frontend": "cd npm install --force",
         "heroku-postbuild": "npm run install-frontend && npm run build --prefix Frontend"
     },
     "author": "Oluwatomisin Adeyinka Tomori",
