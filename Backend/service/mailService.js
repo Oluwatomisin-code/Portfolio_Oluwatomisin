@@ -10,6 +10,6 @@ module.exports.mailService = (req, res) => {
     const transporter = nodemailer.createTransport(options.transporterOptions)
 
     transporter.sendMail(options.mailOption(name, email, subject, message), async(err, result) => {
-        err ? res.staus(400).send("error occured while sending mail") : res.status(200).send("mail sent")
+        err ? res.status(400).send("error occured while sending mail") : res.status(200).send("mail sent")
     })
 }

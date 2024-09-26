@@ -16,7 +16,7 @@ nav {
 
 .navLinks {
     margin-right: 120px;
-    width: 400px;
+    width: 500px;
     height: 40%;
     list-style: none;
     display: flex;
@@ -49,7 +49,7 @@ nav {
     width: 55%;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:780px) {
     nav {
         justify-content: space-between;
     }

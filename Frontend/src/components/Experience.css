@@ -1,0 +1,162 @@
+.experience-header {
+    position: relative;
+    width: 100%;
+    padding: 3rem 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    color: rgba(0, 0, 0, 0.05);
+    /* Light text for background */
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    z-index: 1;
+}
+
+.title-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    /* Make sure it's above the background text */
+}
+
+.title-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    color: #333;
+}
+
+.title-line {
+    width: 50px;
+    height: 2px;
+    background-color: #ff6347;
+    /* Accent color */
+}
+
+.experience-section {
+    position: relative;
+    width: 100%;
+    padding: 3rem 5%;
+    /* Padding is now 5% on both sides */
+    background-color: #f2f2fc;
+    min-height: 90vh;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.background-text {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.05);
+    /* Very light gray to appear like a background text */
+    font-weight: bold;
+    z-index: 1;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #ff6347;
+    /* Accent color */
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    z-index: 2;
+    margin-top: 50px;
+}
+
+.experience-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+.experience-duration {
+    background-color: #ff6347;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-role {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.experience-description {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 20px;
+}
+
+.experience-location {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+    .experience-section {
+        padding: 1.5rem 2rem;
+        /* Reducing padding slightly on mobile */
+    }
+    .background-text {
+        font-size: 3rem;
+        /* Smaller background text for mobile */
+    }
+}
+
+@media (max-width: 768px) {
+    .background-text {
+        font-size: 3.5rem;
+        /* Adjust size for smaller screens */
+    }
+    .title-text {
+        font-size: 1.2rem;
+    }
+    .title-line {
+        width: 30px;
+    }
+}

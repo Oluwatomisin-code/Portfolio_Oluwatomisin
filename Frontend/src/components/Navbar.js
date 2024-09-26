@@ -27,6 +27,9 @@ function Navbar() {
           <Link to="skills" spy={true} smooth={true} offset={0} duration={500} onClick={toggleNav}>Skills</Link>
         </li>
         <li className="navLink">
+          <Link to="experience" spy={true} smooth={true} offset={0} duration={500} onClick={toggleNav}>Experience</Link>
+        </li>
+        <li className="navLink">
           <Link to="projects" spy={true} smooth={true} offset={0} duration={500} onClick={toggleNav}>Projects</Link>
         </li>
         <li className="navLink">

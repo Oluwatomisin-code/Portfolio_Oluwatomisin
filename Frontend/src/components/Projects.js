@@ -2,17 +2,25 @@ import React from 'react';
 import './Projects.css';
 import Tubekatch from './images/projects/tubekatch.png';
 import Portfolio from './images/projects/portfolio.png';
-import Thespeedfixer from './images/projects/thespeedfixer.png';
+import kwikpik from './images/projects/kwikpik.png';
+import kwikpikUser from './images/projects/kwikpik-user.png';
+import kwikpikRider from './images/projects/kwikpik-rider.png';
 import Whatsapp from './images/projects/whatsapp.png';
 import {FaGithub} from 'react-icons/fa';
 import {BiLinkAlt} from 'react-icons/bi';
 
 function Projects() {
   return <div className='wrapProjects' id="projects">
+    <div className="experience-header">
+      <div className="background-text">PROJECTS</div>
+      <div className="title-wrapper">
+        <div className="title-line"></div>
+        <h2 className="title-text">PROJECTS</h2>
+        <div className="title-line"></div>
+      </div>
+    </div>
     <div>
-      <h2>
-        Featured Projects
-      </h2>
+      
       <p>Selected projects I've worked on in the past.</p>
     </div>
     <div className="projectCards">
@@ -73,28 +81,28 @@ function Projects() {
       <div className="projCard">
         <div className="blueTag"></div>
         <div className="projDetails">
-          <div className="projHeading">THESPEEDFIXER.COM</div>
+          <div className="projHeading">Kwikpik Business</div>
           <div className="projBrief">
             <p>
-              <b>Brief:</b> speedfixer.com is a handyman service app, it allows for easy and fast communication between users and handyman service provider. 
+              <b>Brief:</b> Logistics, ride hailing for businesses 
             </p>
           </div>
           <div className="projStack">
             <p>
-              <b>Tech Stack / Technologies:</b> Node.js, Express js, ReactJs, MongoDb.
+              <b>Tech Stack / Technologies:</b> ...
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://thespeedfixer.com" target="_blank" rel='noreferrer noopener'>
+            <a href="https://business.kwikpik.io/" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
-            <a href="https://github.com/Oluwatomisin-code/Thespeedfixer" target="_blank" rel='noreferrer noopener'>
+            {/* <a href="https://github.com/Oluwatomisin-code/Thespeedfixer" target="_blank" rel='noreferrer noopener'>
               <FaGithub size={20} style={{color:'#000000'}}/>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="projImgs">
-          <img src={Thespeedfixer} alt="" className="projImg" />
+          <img src={kwikpik} alt="" className="projImg" />
         </div>
       </div>
       <div className="projCard">
@@ -127,55 +135,55 @@ function Projects() {
       <div className="projCard">
         <div className="blueTag"></div>
         <div className="projDetails">
-          <div className="projHeading">E-COMMERCE</div>
+          <div className="projHeading">Kwikpik User App</div>
           <div className="projBrief">
             <p>
-              <b>Brief:</b> A demo e-commerce web app, that allows users to add to cart and view cart.
+              <b>Brief:</b>Delivery, Ride hailing.
             </p>
           </div>
           <div className="projStack">
             <p>
-              <b>Tech Stack / Technologies:</b> PHP, HTML, CSS.
+              <b>Tech Stack / Technologies:</b> React native, maps.
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://" target="_blank" rel='noreferrer noopener'>
+            <a href="https://apps.apple.com/us/app/kwik-pik/id6447007329" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
-            <a href="https://github.com/Oluwatomisin-code/shoppingcart--php" target="_blank" rel='noreferrer noopener'>
+            {/* <a href="https://github.com/Oluwatomisin-code/shoppingcart--php" target="_blank" rel='noreferrer noopener'>
               <FaGithub size={20} style={{color:'#000000'}}/>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="projImgs">
-          <img src="" alt="" className="projImg" />
+          <img src={kwikpikUser} alt="" className="projImg" />
         </div>
       </div>
       <div className="projCard">
         <div className="blueTag"></div>
         <div className="projDetails">
-          <div className="projHeading">AUTHJet</div>
+          <div className="projHeading">Kwikpik Rider App</div>
           <div className="projBrief">
             <p>
-              <b>Brief:</b> AuthJet is an implemetation typical user authentication using tokens.
+              <b>Brief:</b> Delivery, Ride hailing.
             </p>
           </div>
           <div className="projStack">
             <p>
-              <b>Tech Stack / Technologies:</b> Node.js, Express js, React js, JWT, cors.
+              <b>Tech Stack / Technologies:</b> React Native, maps.
             </p>
           </div>
           <div className='projLinks'>
-            <a href="https://" target="_blank" rel='noreferrer noopener'>
+            <a href="https://apps.apple.com/us/app/kwik-pik-rider/id6447309063" target="_blank" rel='noreferrer noopener'>
               <BiLinkAlt size={20} style={{color:'#000000'}}/>
             </a>
-            <a href="https://" target="_blank" rel='noreferrer noopener'>
+            {/* <a href="https://" target="_blank" rel='noreferrer noopener'>
               <FaGithub size={20} style={{color:'#000000'}}/>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="projImgs">
-          <img src="" alt="" className='projImg'/>
+          <img src={kwikpikRider} alt="" className='projImg'/>
         </div>
       </div>
     </div>

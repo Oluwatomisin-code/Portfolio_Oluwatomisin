@@ -4,6 +4,7 @@
     min-height: 100vh;
     padding: 50px 10vw 20px 10vw;
     box-sizing: border-box;
+    background-color: #f2f2fc;
 }
 
 .contactForm {

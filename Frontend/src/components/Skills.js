@@ -15,39 +15,61 @@ import Python from './images/icons/python.svg'
 import Git from './images/icons/git.svg'
 import Wordpress from './images/icons/wordpress.svg'
 import Github from './images/icons/github.svg'
+import { FaAws, FaDocker, FaJava } from 'react-icons/fa';
+import { SiApollographql, SiFlask, SiJest, SiJira, SiMicrosoftazure, SiNestjs, SiRabbitmq, SiRedis, SiRedux, SiSlack, SiSpringboot, SiTrello } from "react-icons/si";
+// import { RiNextjsFill } from "react-icons/ri";
+
+import { SiTypescript } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { BiLogoFirebase, BiLogoPostgresql, BiLogoTailwindCss } from "react-icons/bi";
 
 
 function Skills() {
   
   
   return <div className='wrapSkills' id= "skills">
-    <h2>Technologies and Programming Languages I have explored</h2>
+    <div className="experience-header">
+      <div className="background-text">SKILLS</div>
+      <div className="title-wrapper">
+        <div className="title-line"></div>
+        <h2 className="title-text">SKILLS</h2>
+        <div className="title-line"></div>
+      </div>
+    </div>
+    <h2 >Technologies and Programming Languages I have explored</h2>
     <p>.</p>
     <div className='skillSet'>
       <div className='skillSet1'>
         <div className="skillIcon">
-            <img src={Html5} alt="" />
+            <img src={Html5} alt="html5" />
         </div>
         <div className="skillIcon">
-        <img src={Css} alt="" />    
+        <img src={Css} alt="css" />    
         </div>
         <div className="skillIcon">
-        <img src={Bootstrap} alt="" />
+        <img src={Bootstrap} alt="bootstrap" />
         </div>
         <div className="skillIcon">
-        <img src={Javascript} alt="" />
+        <img src={Javascript} alt="javascript" />
+        </div>
+        
+        <div className="skillIcon">
+        <img src={Jquery} alt="jquery" />
         </div>
         <div className="skillIcon">
-        <img src={Jquery} alt="" />
+        <img src={react} alt="react" />
         </div>
         <div className="skillIcon">
-        <img src={react} alt="" />
+        <BiLogoTailwindCss size={52} />
         </div>
-        <div className="skillIcon">
-        <img src={Angular} alt="" />
-        </div>
+        
+        
       </div>
       <div className='skillSet1'>
+      <div className="skillIcon">
+        <img src={Angular} alt="angular" />
+        </div>
+
         <div className="skillIcon">
             <img src={Php} alt="" />
         </div>
@@ -66,13 +88,79 @@ function Skills() {
         <div className="skillIcon">
         <img src={Git} alt="" />
         </div>
+        
+      </div>
+      <div className='skillSet1'>
+      <div className="skillIcon">
+        <SiTypescript size={52}/>
+        </div>
         <div className="skillIcon">
         <img src={Wordpress} alt="" />
         </div>
-      </div>
-      <div className='skillSet1'>
         <div className="skillIcon">
             <img src={Github} alt="" />
+        </div>
+        <div className="skillIcon">
+          <FaJava size={52}/>
+        </div>
+        <div className="skillIcon">
+          <SiSpringboot size={52}/>
+        </div>
+        <div className="skillIcon">
+          <SiNestjs size={52}/>
+        </div>
+        <div className="skillIcon">
+          <TbBrandNextjs size={52}/>
+        </div>
+        
+        
+        
+      </div>
+      <div className='skillSet1'>
+      <div className="skillIcon">
+          <BiLogoPostgresql size={52}/>
+        </div>
+      <div className="skillIcon">
+          <FaDocker size={52}/>
+        </div>
+      <div className="skillIcon">
+      <SiFlask size={52}/>
+        </div>
+        <div className="skillIcon">
+            <FaAws size={52}/>
+        </div>
+        <div className="skillIcon">
+          <SiRedis size={52}/>
+        </div>
+        <div className="skillIcon">
+        <SiApollographql size={52}/>
+        </div>
+        <div className="skillIcon">
+        <SiRabbitmq size={52}/>
+        </div>
+      </div>
+
+      <div className='skillSet1'>
+      <div className="skillIcon">
+          <SiRedux  size={52}/>
+        </div>
+      <div className="skillIcon">
+      <BiLogoFirebase size={52}/>
+        </div>
+      <div className="skillIcon">
+      <SiJest size={52}/>
+        </div>
+        <div className="skillIcon">
+        <SiJira  size={52}/>
+        </div>
+        <div className="skillIcon">
+          <SiTrello size={52}/>
+        </div>
+        <div className="skillIcon">
+        <SiSlack size={52}/>
+        </div>
+        <div className="skillIcon">
+        <SiMicrosoftazure size={52}/>
         </div>
       </div>
     </div>

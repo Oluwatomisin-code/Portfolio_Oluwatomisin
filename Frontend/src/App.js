@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import {gsap} from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Experience from './components/Experience';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -66,6 +67,7 @@ function App() {
       <Navbar/>
       <About/>
       <Skills/>
+      <Experience/>
       <Projects/>
       <Contact/>
       <Footer/>
