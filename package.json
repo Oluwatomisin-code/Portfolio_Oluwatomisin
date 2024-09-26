@@ -9,7 +9,7 @@
         "client": "npm start --prefix Frontend",
         "dev": "concurrently \"npm run server\" \"npm run client\"",
         "start": "node backend/server.js",
-        "build": "cd Frontend && npm run build",
+        "build": "cd Frontend && ls && npm run build",
         "install-frontend": "npm install --prefix Frontend",
         "heroku-postbuild": "npm run install-frontend && npm run build --prefix Frontend"
     },
@@ -20,7 +20,8 @@
         "dotenv": "^16.0.0",
         "express": "^4.18.1",
         "googleapis": "^100.0.0",
-        "nodemailer": "^6.7.5"
+        "nodemailer": "^6.7.5",
+        "react-scripts": "^5.0.1"
     },
     "devDependencies": {
         "concurrently": "^6.5.1",
