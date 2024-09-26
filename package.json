@@ -9,7 +9,7 @@
         "client": "npm start --prefix Frontend",
         "dev": "concurrently \"npm run server\" \"npm run client\"",
         "start": "node backend/server.js",
-        "build": "npm run build --prefix Frontend",
+        "build": "cd Frontend && npm run build",
         "install-frontend": "npm install --prefix Frontend",
         "heroku-postbuild": "npm run install-frontend && npm run build --prefix Frontend"
     },
@@ -24,7 +24,6 @@
     },
     "devDependencies": {
         "concurrently": "^6.5.1",
-        "nodemon": "^2.0.16",
-        "react-scripts": "^5.0.1"
+        "nodemon": "^2.0.16"
     }
 }
